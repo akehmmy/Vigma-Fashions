@@ -140,6 +140,17 @@ The project can be deployed using platforms such as **Vercel** or **Netlify**.
 
 Screenshots of the website can be added here to showcase the user interface and different pages of the project.
 
+### Homepage
+
+![Vigma Fashions Homepage](screenshots/homepage.png)
+
+### Collections
+
+![Vigma Fashions Collections](screenshots/collections.png)
+
+### About
+
+![Vigma Fashions About Page](screenshots/about.png)
 ## 👨‍💻 Developer
 
 **Akor Emmanuel**
