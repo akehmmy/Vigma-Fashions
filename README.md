@@ -1,66 +1,153 @@
-# VIgma Fashion
+# Vigma Fashions
 
-An elegant, minimal showcase / lookbook website for **VIgma Fashion**, built with
-Next.js (App Router) and React.
+A modern and elegant fashion showcase and lookbook website built for **Vigma Fashions**, with a clean, minimal design focused on presenting fashion collections and the brand identity.
 
-## Run it locally
+## ✨ Features
+
+* Responsive design for desktop and mobile
+* Modern fashion-focused user interface
+* Hero section with brand presentation
+* Featured fashion collections
+* Collection and lookbook pages
+* About page with brand story and values
+* Contact/inquiry page
+* Responsive navigation with mobile menu
+* Reusable React components
+* Optimized image assets
+* Clean and maintainable project structure
+
+## 🛠️ Technologies Used
+
+* **Next.js** — React framework
+* **React** — Frontend library
+* **JavaScript**
+* **CSS**
+* **Node.js / npm**
+
+## 📂 Project Structure
+
+```text
+vigma-fashion/
+│
+├── app/
+│   ├── about/
+│   │   └── page.js
+│   ├── collections/
+│   │   └── page.js
+│   ├── contact/
+│   │   └── page.js
+│   ├── globals.css
+│   ├── layout.js
+│   ├── not-found.js
+│   └── page.js
+│
+├── components/
+│   ├── CollectionCard.js
+│   ├── ContactForm.js
+│   ├── Footer.js
+│   └── Navbar.js
+│
+├── data/
+│   └── collections.js
+│
+├── public/
+│   └── images/
+│
+├── package.json
+├── next.config.mjs
+├── jsconfig.json
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/akehmmy/Vigma-Fashions.git
+```
+
+### 2. Navigate into the project
+
+```bash
+cd Vigma-Fashions
+```
+
+### 3. Install dependencies
 
 ```bash
 npm install
+```
+
+### 4. Start the development server
+
+```bash
 npm run dev
 ```
 
-Then open http://localhost:3000
+Open **http://localhost:3000** in your browser.
 
-## Build for production
+## 🏗️ Build for Production
 
 ```bash
 npm run build
 npm start
 ```
 
-## Project structure
+## 🎨 Customization
 
+### Add or change images
+
+Place images inside:
+
+```text
+public/images/
 ```
+
+Collection information can be managed from:
+
+```text
+data/collections.js
+```
+
+### Change colors and styling
+
+The main design tokens and styling can be found in:
+
+```text
+app/globals.css
+```
+
+### Update brand content
+
+Page content can be edited within the files inside:
+
+```text
 app/
-  layout.js          Root layout, fonts, <Navbar/> + <Footer/>
-  page.js            Home (hero, featured collections, philosophy, CTA)
-  globals.css        All styling (design tokens at the top under :root)
-  collections/       Collections grid + lookbook
-  about/             Brand story + values
-  contact/           Inquiry form + studio details
-components/
-  Navbar.js          Sticky nav with mobile menu
-  Footer.js
-  CollectionCard.js  Reusable collection tile
-  ContactForm.js     Inquiry form (currently opens the visitor's email client)
-data/
-  collections.js     Edit collections + lookbook here (single source of truth)
 ```
 
-## How to customise
+## 📩 Contact Form
 
-**Add real photos**
-1. Drop images into `public/images/` (e.g. `aurelia.jpg`).
-2. In `data/collections.js`, set the `image` field, e.g. `image: "/images/aurelia.jpg"`.
-   Any item left as `image: null` shows an elegant text placeholder.
+The current contact form opens the visitor's default email application with a pre-filled message.
 
-**Change collections / lookbook** — edit `data/collections.js` only.
+It can be extended in the future with a backend API or a form service for automatically collecting inquiries.
 
-**Change colours & fonts** — see the `:root` block at the top of `app/globals.css`.
-Fonts are loaded in `app/layout.js` (Cormorant Garamond for headings, Jost for body).
+## 🌐 Deployment
 
-**Update brand copy** — text lives directly in each page file under `app/`.
+The project can be deployed using platforms such as **Vercel** or **Netlify**.
 
-## Contact form
+## 📸 Screenshots
 
-Right now the form opens the visitor's email app pre-filled (no server needed).
-To collect submissions automatically, swap the handler in
-`components/ContactForm.js` for a form service such as
-[Formspree](https://formspree.io) or [Resend](https://resend.com), or a Next.js
-API route.
+Screenshots of the website can be added here to showcase the user interface and different pages of the project.
 
-## Deploy
+## 👨‍💻 Developer
 
-Easiest is [Vercel](https://vercel.com) (made by the Next.js team): push to a Git
-repo and import it, or run `npx vercel`. Netlify also works.
+**Akor Emmanuel**
+
+Computer Science Graduate | Python Developer | Aspiring Software Developer
+
+GitHub: https://github.com/akehmmy
+
+---
+
+⭐ If you find this project useful or interesting, consider giving the repository a star.
