@@ -2,6 +2,10 @@
 
 A modern and elegant fashion showcase and lookbook website built for **Vigma Fashions**, with a clean, minimal design focused on presenting fashion collections and the brand identity.
 
+## Live Demo
+
+[View Vigma Fashions Live](https://vigma-fashions.vercel.app)
+
 ## ✨ Features
 
 * Responsive design for desktop and mobile
